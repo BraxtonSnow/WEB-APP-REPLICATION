@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+.main-page-container {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 2100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 2100px;
+  /* border: 1px solid rgb(16, 16, 131); */
+  background-color: rgb(75, 136, 202);
+  /* padding: 0px 0px 20% 0px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-image-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bottum-image-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
+
+.right-container {
+  /* display: flex; */
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+.top-main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  height: 500px;
+  padding: 2% 0px;
+}
+
+.image-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  background-color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  width: 700px;
+  height: 50px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  width: 700px;
+  height: 50px;
+}
+
+.middle-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 1000px;
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 250px;
+  background-color: white;
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid orange; */
+}
+
+.bottum-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid orange; */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 550px;
+  background-color: grey;
+  margin: 1%;
+}
+
+.bottum-main-container {
+  /* border: 1px solid red; */
+  height: 250px;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+}
+
+.bottum-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  width: 35%;
+  height: 70px;
+}
+
+.bottum-content-container {
   color: white;
+  /* border: 1px solid white; */
 }
 
-.App-link {
-  color: #61dafb;
+.bottum-button-container {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottum-button {
+  width: 25%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.the-bottum-icon-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.the-bottum-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.bottum-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 70px;
+  /* border-radius: 10px; */
+  background-color: grey;
+  color: black;
+  font-size: 20px;
 }
